@@ -1,0 +1,147 @@
+body{
+    font-family: "Trebuchet MS",Helvetica,sans-serif;
+}
+.nav a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+.navbar-brand:hover{
+    color:#FFFFFF;
+}
+.self-fluid{
+    width:100%;
+    
+}
+.background-default{
+    background:#008F4F;
+}
+.cor{
+    color:#FFFFFF;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    background:#008440;
+    color:#FFFFFF;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    background:#008440;
+    color:#FFFFFF;
+}
+.banner{
+    width:100%;
+	text-align:center;
+	min-width:100%;
+	min-height:110px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.cor-fonte{
+    color:#008440;
+    font-style: italic;
+}
+a:hover{
+    color:#008440;
+}
+#idUsuarioExame{
+    display:none;
+}
+.cor a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.button-color{
+    color:#FFF;
+    background: #008F4F;
+    border-color: #008F4F;
+}
+.button-color:hover{
+    background-color: #008440;
+    border-color: #008440;
+    color:#FFFFFF;
+}
+.button-color:focus,btn.focus{
+    background-color: #008F4F;
+    border-color: #008F4F;
+    color:#FFFFFF;
+}
+.button-color:active,btn.active{
+    background-color: #008F4F;
+    border-color: #008F4F;
+    color:#FFFFFF;
+}
+.dropdown-menu li{
+    background: #FFF;
+}
+.dropdown-menu li a{
+    background: #FFF;
+}
+.dropdown-menu li a{
+    color:#000;
+}
+.dropdown-menu li a:hover,.dropdown-menu li a:focus{
+    background: #008440;
+}
+.imgIndex{
+	width:50%;
+	max-width: 300px;
+}
+.imgicon{
+    width: 100%;
+    max-width: 80px;
+}
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: #008440 url(../img/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #008450;
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 15px 31px;
+}
